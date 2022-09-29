@@ -1,0 +1,623 @@
+{
+  "TopBanner": [
+    {
+      "id": 1,
+      "images": "../images/tap&learn.png"
+    },
+    {
+      "id": 2,
+      "images": "../images/learnnow.png"
+    },
+    {
+      "id": 3,
+      "images": "../images/next.png"
+    }
+  ],
+  "TopRetails": [
+    {
+      "id": 1,
+      "event": "ALL STARS SALE",
+      "images": "../images/Ajijo.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+
+    {
+      "id": 2,
+      "event": "ALL STARS SALE",
+      "images": "../images/wow.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 3,
+      "event": "ALL STARS SALE",
+      "images": "../images/myntra.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 4,
+      "event": "ALL STARS SALE",
+      "images": "../images/man-company.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 5,
+      "event": "ALL STARS SALE",
+      "images": "../images/caffeine.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 6,
+      "event": "ALL STARS SALE",
+      "images": "../images/myntra.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 7,
+      "event": "ALL STARS SALE",
+      "images": "../images/Ajijo.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    }
+  ],
+
+  "superseller": [
+    {
+      "id": 1,
+
+      "images": "../images/Ajijo.png"
+    },
+
+    {
+      "id": 2,
+
+      "images": "../images/wow.png"
+    },
+    {
+      "id": 3,
+      "images": "../images/myntra.png"
+    },
+    {
+      "id": 4,
+      "images": "../images/man-company.png"
+    },
+    {
+      "id": 5,
+      "images": "../images/caffeine.jpg"
+    },
+    {
+      "id": 6,
+      "images": "../images/myntra.png"
+    },
+    {
+      "id": 7,
+      "images": "../images/Ajijo.png"
+    }
+  ],
+  "accessories": [
+    {
+      "id": 1,
+
+      "images": "../images/Sunglasses.png"
+    },
+
+    {
+      "id": 2,
+
+      "images": "../images/watches.png"
+    },
+    {
+      "id": 3,
+      "images": "../images/Jwellery.png"
+    },
+    {
+      "id": 4,
+      "images": "../images/handbags.png"
+    }
+  ],
+  "electronics": [
+    {
+      "id": 1,
+
+      "images": "../images/Headphones.png"
+    },
+
+    {
+      "id": 2,
+
+      "images": "../images/Accessories.png"
+    },
+    {
+      "id": 3,
+      "images": "../images/powerbanks.png"
+    },
+    {
+      "id": 4,
+      "images": "../images/Speaker.jpg"
+    }
+  ],
+  "menfashion": [
+    {
+      "id": 1,
+
+      "images": "../images/t-shirt.png"
+    },
+
+    {
+      "id": 2,
+
+      "images": "../images/jeans.png"
+    },
+    {
+      "id": 3,
+      "images": "../images/shirts.png"
+    },
+    {
+      "id": 4,
+      "images": "../images/trouser.png"
+    }
+  ],
+  "personelcare": [
+    {
+      "id": 1,
+
+      "images": "../images/bread-care.jpg"
+    },
+
+    {
+      "id": 2,
+
+      "images": "../images/haircare.png"
+    },
+    {
+      "id": 3,
+      "images": "../images/bath&shower.png"
+    },
+    {
+      "id": 4,
+      "images": "../images/combos.png"
+    }
+  ],
+  "mensfootwear": [
+    {
+      "id": 1,
+      "images": "../images/fshoes.png"
+    },
+
+    {
+      "id": 2,
+
+      "images": "../images/fflop.png"
+    },
+    {
+      "id": 3,
+      "images": "../images/sshoes.png"
+    },
+    {
+      "id": 4,
+      "images": "../images/cshoes.png"
+    }
+  ],
+  "womenfashion": [
+    {
+      "id": 1,
+
+      "images": "../images/kurta.png"
+    },
+
+    {
+      "id": 2,
+
+      "images": "../images/top.png"
+    },
+    {
+      "id": 3,
+      "images": "../images/wjeans.png"
+    },
+    {
+      "id": 4,
+      "images": "../images/dress.png"
+    }
+  ],
+  "womenfootwear": [
+    {
+      "id": 1,
+
+      "images": "../images/wcshoes.png"
+    },
+
+    {
+      "id": 2,
+
+      "images": "../images/sandal.png"
+    },
+    {
+      "id": 3,
+      "images": "../images/wsshoes.png"
+    },
+    {
+      "id": 4,
+      "images": "../images/heals.png"
+    }
+  ],
+  "grocery": [
+    {
+      "id": 1,
+
+      "images": "../images/grocery.png"
+    },
+
+    {
+      "id": 2,
+
+      "images": "../images/toiletries.jpg"
+    }
+  ],
+  "beauty": [
+    {
+      "id": 1,
+
+      "images": "../images/fragrance.png"
+    },
+
+    {
+      "id": 2,
+
+      "images": "../images/makeup.png"
+    }
+  ],
+  "home&kitchen": [
+    {
+      "id": 1,
+
+      "images": "../images/furnishing.png"
+    },
+
+    {
+      "id": 2,
+
+      "images": "../images/bath.jpg"
+    },
+    {
+      "id": 3,
+      "images": "../images/kitchen.png"
+    },
+    {
+      "id": 4,
+      "images": "../images/Dinnerware.png"
+    }
+  ],
+  "babyproduct": [
+    {
+      "id": 1,
+
+      "images": "../images/bcare.png"
+    },
+
+    {
+      "id": 2,
+
+      "images": "../images/bbath.png"
+    }
+  ],
+  "bags&luggage": [
+    {
+      "id": 1,
+
+      "images": "../images/luggage.png"
+    },
+
+    {
+      "id": 2,
+
+      "images": "../images/wallet.png"
+    }
+  ],
+
+  "flashdeal": [
+    {
+      "id": 1,
+      "event": "Flash Offer",
+      "icon": "../images/Ajijo.png",
+      "images": "../images/flashsale.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+
+    {
+      "id": 2,
+      "event": "SALE LIVE",
+      "icon": "../images/caffeine.jpg",
+      "images": "../images/flashsale1.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 3,
+      "event": "NEW LAUNCH",
+      "icon": "../images/xy.png",
+      "images": "../images/flashsale5.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 4,
+      "event": "NEW ON EARNKARO",
+      "icon": "../images/tata.png",
+      "images": "../images/flashsale2.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 5,
+      "event": "NEW ON EARNKARO",
+      "icon": "../images/in.png",
+      "images": "../images/flashsale3.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 6,
+      "event": "NEW LAUNCH",
+      "icon": "../images/xy.png",
+      "images": "../images/flashsale4.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 7,
+      "event": "ALL STARS SALE",
+      "icon": "../images/myntra.png",
+      "images": "../images/flashsale5.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    }
+  ],
+  "mostshared": [
+    {
+      "id": 1,
+      "event": "Flash Offer",
+      "icon": "../images/myntra.png",
+      "images": "../images/shared1.jpg",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+
+    {
+      "id": 2,
+      "event": "ALL STARS SALE",
+      "icon": "../images/ziva.png",
+      "images": "../images/share2.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 3,
+      "event": "ALL STARS SALE",
+      "icon": "../images/xy.jpg",
+      "images": "../images/shared3.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 4,
+      "event": "ALL STARS SALE",
+      "icon": "../images/Ajijo.png",
+      "images": "../images/shared5.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 5,
+      "event": "ALL STARS SALE",
+      "icon": "../images/myntra.png",
+      "images": "../images/shared6.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 6,
+      "event": "ALL STARS SALE",
+      "icon": "../images/ziva.png",
+      "images": "../images/shared7.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 7,
+      "event": "ALL STARS SALE",
+      "icon": "../images/man-company.png",
+      "images": "../images/shared9.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 8,
+      "event": "ALL STARS SALE",
+      "icon": "../images/ziva.png",
+      "images": "../images/shared8.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 9,
+      "event": "ALL STARS SALE",
+      "icon": "../images/myntra.png",
+      "images": "../images/shared9.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    }
+  ],
+  "highestclicked": [
+    {
+      "id": 1,
+      "event": "Flash Offer",
+      "icon": "../images/Ajijo.png",
+      "images": "../images/h1.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+
+    {
+      "id": 2,
+      "event": "SALE LIVE",
+      "icon": "../images/caffeine.jpg",
+      "images": "../images/h2.jpg",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 3,
+      "event": "NEW LAUNCH",
+      "icon": "../images/xy.png",
+      "images": "../images/h3.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 4,
+      "event": "NEW ON EARNKARO",
+      "icon": "../images/tata.png",
+      "images": "../images/h4.jpg",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 5,
+      "event": "NEW ON EARNKARO",
+      "icon": "../images/in.png",
+      "images": "../images/h5.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 6,
+      "event": "NEW LAUNCH",
+      "icon": "../images/xy.png",
+      "images": "../images/h6.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 7,
+      "event": "ALL STARS SALE",
+      "icon": "../images/myntra.png",
+      "images": "../images/h7.jpg",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 8,
+      "event": "ALL STARS SALE",
+      "icon": "../images/myntra.png",
+      "images": "../images/h8.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 9,
+      "event": "ALL STARS SALE",
+      "icon": "../images/myntra.png",
+      "images": "../images/h9.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 10,
+      "event": "ALL STARS SALE",
+      "icon": "../images/myntra.png",
+      "images": "../images/h10.jpg",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    }
+  ],
+  "newonearnkaro": [
+    {
+      "id": 1,
+      "event": "Flash Offer",
+      "icon": "../images/Ajijo.png",
+      "images": "../images/n1.jpg",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+
+    {
+      "id": 2,
+      "event": "SALE LIVE",
+      "icon": "../images/caffeine.jpg",
+      "images": "../images/n2.jpg",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 3,
+      "event": "NEW LAUNCH",
+      "icon": "../images/xy.png",
+      "images": "../images/n3.jpg",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 4,
+      "event": "NEW ON EARNKARO",
+      "icon": "../images/tata.png",
+      "images": "../images/n4.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 5,
+      "event": "NEW ON EARNKARO",
+      "icon": "../images/in.png",
+      "images": "../images/n5.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 6,
+      "event": "NEW LAUNCH",
+      "icon": "../images/xy.png",
+      "images": "../images/n4.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 7,
+      "event": "ALL STARS SALE",
+      "icon": "../images/myntra.png",
+      "images": "../images/n7.jpg",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 8,
+      "event": "ALL STARS SALE",
+      "icon": "../images/myntra.png",
+      "images": "../images/n4.png",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 9,
+      "event": "ALL STARS SALE",
+      "icon": "../images/myntra.png",
+      "images": "../images/n1.jpg",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    },
+    {
+      "id": 10,
+      "event": "ALL STARS SALE",
+      "icon": "../images/myntra.png",
+      "images": "../images/n2.jpg",
+      "earn": "You Earn",
+      "profit": "Upto 8% Profit"
+    }
+  ]
+
+}

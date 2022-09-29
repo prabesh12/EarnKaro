@@ -1,0 +1,133 @@
+.banner-card {
+  width: 97%;
+  min-height: 330px;
+  border-radius: 0.3rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 2px 3px 0;
+  .offer {
+    background: #da0325;
+    width: max-content;
+    height: max-content;
+    position: relative;
+    padding: 0px 5px;
+    border-top-left-radius: 0.3rem;
+    &::after {
+      content: "";
+      width: 0;
+      height: 0;
+      border-top-width: 12px;
+      border-bottom-width: 12px;
+      border-right-width: 12px;
+      border-left-width: 2px;
+      border-style: solid;
+      border-color: #da0325 transparent #da0325 #da0325;
+      position: absolute;
+      top: 0;
+      right: -13px;
+    }
+    p {
+      color: white;
+      margin-bottom: 0px;
+    }
+  }
+  .secondary-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .brand-wrapper {
+      width: 90px;
+      height: 50px;
+      cursor: pointer;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: pointer;
+      }
+    }
+    .earn-discount {
+      display: flex;
+      position: relative;
+      margin-top: 20px;
+      width: 100%;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      border-bottom: 1px solid rgb(189, 189, 189);
+      border-top: 1px solid rgb(189, 189, 189);
+      .earn-now {
+        position: absolute;
+        font-size: 12px;
+        top: -12px;
+        background: #f1f1f1;
+        border: 1px solid #cccccc;
+        border-radius: 13px;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 1.1rem;
+        width: 35%;
+        height: 30px;
+      }
+      .discount-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+
+        .discount {
+          font-weight: 700;
+          font-size: 1.3rem;
+          line-height: 1.3rem;
+        }
+      }
+    }
+    .app {
+      margin-top: 20px;
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(76, 175, 80);
+      border-radius: 1.4rem;
+      height: 40px;
+      img {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        margin-right: 8px;
+        cursor: pointer;
+      }
+      .share-now {
+        border: none;
+        outline: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+        background-color: transparent;
+        width: 40%;
+      }
+    }
+
+    .copy-link {
+      margin-top: 20px;
+      width: 90%;
+      border: 2px solid grey;
+      background-color: transparent;
+      border-radius: 1.4rem;
+      color: rgb(58, 58, 58);
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 1rem;
+      height: 40px;
+    }
+  }
+}

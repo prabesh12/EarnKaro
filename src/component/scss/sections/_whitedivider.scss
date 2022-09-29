@@ -1,0 +1,52 @@
+
+.white-divider{
+    position: absolute;
+    top: 80px;
+    background-color: white;
+    width: 100%;
+    z-index: -1;
+    padding: 20px 40px;
+
+    .total-profit-wrapper{
+        .profit-link{
+            color: rgb(99, 99, 99);
+            @include setFont(500, 1rem, 1.1rem, 1px);
+            span{
+                color: black;
+               font-size: 1.1rem;
+               font-weight: 600;
+            }
+        }
+    }
+    .how-to-earn-more{
+        button{
+            border: 1px solid rgb(29, 29, 29);
+            border-radius: 1rem;
+            outline: none;
+            color: rgb(29, 29, 29);
+            padding: 4px 1rem;
+            background-color: transparent;
+        }
+    }
+    .amazon-add{
+        @include flexProperty(flex, row, center, center);
+        .eligibility{
+            position: relative;
+            border: 1px solid green;
+            border-radius: 1rem;
+            padding: 2px 1rem;
+            color: green;
+
+
+            ::before{
+                content: "";
+                width: 176px;
+                position: absolute;
+                height: 28px;
+                top: 3px;
+                left: -186px;
+                background: url(../../../../public/images/amazon.png) no-repeat 0 0;
+            }
+            }
+        }
+    }

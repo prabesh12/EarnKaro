@@ -1,0 +1,103 @@
+.header {
+  position: fixed;
+  background: $primary-color;
+  padding: 10px 0px;
+  z-index: 10;
+  @include flexProperty(flex, row, space-between, center);
+
+  .logo-wrapper {
+    width: 250px;
+    height: 30px;
+
+    .logo {
+      width: 100%;
+      height: 100%;
+      aspect-ratio: auto 269 / 41;
+      object-fit: cover;
+    }
+  }
+
+  .search {
+    @include flexProperty(flex, row, space-between, center);
+    border: 1px solid white;
+    width: 350px;
+    border-radius: 1rem;
+    height: 40px;
+    input {
+      background: transparent;
+      border: none;
+      width: 100%;
+      outline: none;
+      margin-left: 10px;
+      color: white;
+
+      &::placeholder {
+        color: white;
+        @include setFont(600, 1rem, 1.1rem, 1px);
+        :focus{
+          display: none;
+        }
+      }
+
+      &:focus::-webkit-input-placeholder {
+        opacity: 0;
+    }
+    }
+    .search-icon-wrapper {
+      width: 50px;
+      height: 100%;
+      padding: 8px;
+      float: right;
+      border-bottom-right-radius: 0.8rem;
+      border-top-right-radius:0.8rem;
+      background-color: white;
+      @include flexProperty(flex, row, center, center);
+
+      img {
+        width: 40px;
+        height: 40px;
+        max-width: 30px;
+        max-height: 30px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .common {
+    @include flexProperty(flex, row, space-between, center);
+    @include setFont(600, 1rem, 1.1rem, 1px);
+    padding: 10px;
+    img {
+      width: 50px;
+      height: 50px;
+      max-width: 20px;
+      max-height: 20px;
+      object-fit: cover;
+    }
+    p {
+      margin-bottom: 0px;
+      margin-left: 0.7rem;
+      color: white;
+    }
+    label {
+      color: white;
+      margin-left: 0.7rem;
+    }
+    select {
+      border: none;
+      outline: none;
+      background: transparent;
+      width: 20px;
+      color: white;
+      padding: 10px;
+
+      option {
+        color: black;
+        margin: 0px 10px;
+        border: none;
+      box-shadow: -1px 0px 7px 0px rgba(196, 196, 196, 1);
+
+      }
+    }
+  }
+}

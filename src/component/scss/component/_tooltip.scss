@@ -1,0 +1,30 @@
+.tooltips{
+    background-color: rgb(76,175,80);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+    position: relative;
+    top: 170px;
+    padding: 4px 8px;
+
+    h5{
+        color: white;
+        font-weight: 500;
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+        margin-bottom: 0px;
+        text-transform: uppercase;
+
+    }
+
+    button{
+        background: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+}

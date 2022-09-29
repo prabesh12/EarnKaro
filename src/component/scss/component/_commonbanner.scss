@@ -1,0 +1,47 @@
+.common_banner{
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  top: 180px;
+  padding: 0px 10px;
+  .slick-slider {
+    button {
+      width: 37px;
+      height: 37px;
+    }
+  }
+  .slick-next {
+    content: "→";
+    position: absolute;
+    right: 0px;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    background: #ffffff;
+    z-index: 2;
+
+    &::before {
+      color: #0a0a0a;
+    }
+    &:focus, &:hover{
+      background: white;
+  
+      }
+  }
+  .slick-prev {
+    content: "→";
+    position: absolute;
+    left: 0px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    border-radius: 50%;
+    z-index: 2;
+    &::before {
+      color: #000000;
+    }
+    &:focus, &:hover{
+      background: white;
+  
+      }
+  }
+}

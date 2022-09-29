@@ -1,0 +1,31 @@
+@import 'pages/homepage';
+@import "./sections/header";
+@import "./sections/canvas";
+@import "./sections/whitedivider";
+@import "./sections/topslider";
+@import "./component/bannercard";
+@import "./component/commonbanner";
+@import "./component/tooltip";
+@import "./component/commoncard";
+@import "./component/secondarymenu/productcard";
+@import "./component/secondarymenu/secondarymenu";
+@import './variables/colors';
+@import "./variables/fonts";
+@import "./mixins/mixins";
+@import "./sections/footer";
+@import "./component/scrolltotop";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: $Lato;
+    // overflow-x: hidden;
+    z-index: 1;
+}
+body{
+    background: rgb(238, 238, 238);
+}
+a {
+    text-decoration: none;
+}
