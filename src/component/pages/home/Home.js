@@ -26,6 +26,7 @@ const Home = () => {
       {data.map((data) => {
         return (
           <Banner
+            key={data.title}
             title={data.title}
             api={data.api}
             flash={data?.flash ? true : false}

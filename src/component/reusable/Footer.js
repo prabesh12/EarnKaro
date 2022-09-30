@@ -98,7 +98,7 @@ const Footer = () => {
             <div className="col-md-4 col-xl-4 col-lg-4 col-sm-12">
               <div className="footer_d">
                 <div className="fl fw global_app">
-                  <h3 classNameName="hd_3">Download App</h3>
+                  <h3 className="hd_3">Download App</h3>
                   <Link to="https://play.google.com/store/apps/details?id=com.earnkaro&amp;referrer=r%3D1962062%26refname%3DEarnKaro%26utm_source%3Ddesktop_earnkaro_footer">
                     <img
                       alt="Get it on Google Play"
@@ -111,7 +111,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="copy_right "> <p id="lblFooterCopyRight">(©) Copyright 2022 EarnKaro. All Rights Reserved.</p> </div>
+        <div className="copy_right "> <p id="lblFooterCopyRight">(©) Copyright 2022 EarnKaro. All Rights Reserved.</p> </div>
     </footer>
   );
 };

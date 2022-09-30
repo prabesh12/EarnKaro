@@ -19,11 +19,11 @@ const Banner = ({title, api, flash}) => {
   const settings = {
     dots: false,
     infinite: true,
-    autoplay: false,
-    speed: 2000,
+    autoplay: true,
+    speed: 3000,
     slidesToShow: 4,
     slidesToScroll: 4,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 6000,
 
     responsive: [
       {
@@ -65,14 +65,13 @@ const Banner = ({title, api, flash}) => {
             <Slider {...settings}>
              
            {data && data?.map((item)=>{
-           return <BannerCard {...item} flash = {flash} />
+           return <BannerCard {...item} flash = {flash} key={item.id}/>
            })}
              
             </Slider>
           </div>
         </div>
       </div>
-      )
     </>
   );
 };

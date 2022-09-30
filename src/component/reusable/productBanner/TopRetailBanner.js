@@ -66,22 +66,20 @@ const ProductBanner = () => {
               {data &&
                 data?.map((data, index) => {
                   return (
-                    <>
                       <TopRetailBannerCard
-                        id={data.id}
+                        key={data.id}
                         offer={data.event}
                         images={data.images}
                         earn={data.earn}
                         profit={data.profit}
                       />
-                    </>
                   );
                 })}
             </Slider>
           </div>
         </div>
       </div>
-      )
+      
     </>
   );
 };

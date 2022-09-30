@@ -23,7 +23,7 @@ const TopSlider = () => {
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplaySpeed: 1000,
-    
+
     responsive: [
       {
         breakpoint: 1024,
@@ -31,38 +31,36 @@ const TopSlider = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
-        }
+          slidesToScroll: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
-    
     <div className="banner_wrap">
       <Slider {...settings}>
         {data &&
-          data?.map((data, index) => {
+          data?.map((data) => {
             return (
-              <>
-                    <div className="banner_img">
-                      <Link to="/" className="banner-card-content-link">
-                        <img src={data.images} alt="" key={index} />
-                      </Link>
-                    </div>
-              </>
+                <div className="banner_img"  key={data.id}>
+                  <Link to="/" className="banner-card-content-link">
+                    <img src={data.images} alt=""  />
+                  </Link>
+                </div>
             );
           })}
       </Slider>

@@ -37,7 +37,7 @@ const Header = () => {
           </div>
           <div className="profile common">
               <img src="./icons/profile.png" alt="" />
-              <label for="cars">My Profile</label>
+              <label htmlFor="cars">My Profile</label>
               <select name="cars" id="cars">
                 <option value="How earn karo works">
                   How earn karo works ?

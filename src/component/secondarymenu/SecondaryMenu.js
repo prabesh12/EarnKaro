@@ -35,6 +35,7 @@ const SecondaryMenu = () => {
         <div className="menu-items">
           {buttons.map((btn) => (
             <button
+              key={btn.name}
               className={`${btn.api === item && "active"}`}
               onClick={() => setItem(btn.api)}
             >
@@ -46,8 +47,8 @@ const SecondaryMenu = () => {
           {
             <div className="row">
               {data &&
-                data?.map((data, index) => {
-                  return <ProductCard images={data.images} />;
+                data?.map((data) => {
+                  return(  <ProductCard images={data.images} key={data.id} />);
                 })}
             </div>
           }
