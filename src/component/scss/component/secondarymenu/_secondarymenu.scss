@@ -51,3 +51,8 @@
     }
   }
 }
+@include media-sm {
+  .menu-wrapper{
+    top: 150px;
+  }
+}

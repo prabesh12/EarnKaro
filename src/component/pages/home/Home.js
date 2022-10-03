@@ -1,6 +1,7 @@
 import { React } from "react";
 import WhiteDivider from "../../leftCanvas/whiteDivider/WhiteDivider";
 import Banner from "../../reusable/Banner";
+import BottomNav from "../../reusable/bottomnav/BottomNav";
 import Footer from "../../reusable/Footer";
 import Header from "../../reusable/Header";
 import ProductBanner from "../../reusable/productBanner/TopRetailBanner";
@@ -35,6 +36,8 @@ const Home = () => {
       })}
        <Scroll />
       <Footer />
+      <BottomNav />
+
     </div>
   );
 };

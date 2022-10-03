@@ -56,7 +56,7 @@ const ProductBanner = () => {
       <div className="tooltips">
         <h5>Top Retailers</h5>
         <button>
-          View All <span> {`>`} </span>{" "}
+          View All <span> {`>`} </span>
         </button>
       </div>
       <div className="common_banner">

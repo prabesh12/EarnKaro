@@ -1,0 +1,46 @@
+@import "../mixins/config";
+.fix_menu {
+  background-color: white;
+  width: 100%;
+}
+.dn {
+  display: none;
+}
+@include media-sm {
+  .fix_menu {
+    color: white;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    z-index: 100;
+    box-shadow: rgb(0 0 0 / 6%) 0 -1px 3px 0;
+
+    ul {
+      display: flex;
+      list-style: none;
+      align-items: center;
+      justify-content: space-around;
+      padding: 0;
+      margin: 0;
+
+      width: 100%;
+
+      li {
+        margin-top: 0.8rem;
+        .link {
+          text-decoration: none;
+          margin-bottom: 0;
+          color: #999999;
+          font-size: 12px;
+
+          &:focus{
+              color: #4caf50;;
+          }
+        }
+      }
+    }
+  }
+}

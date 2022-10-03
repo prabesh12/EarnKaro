@@ -1,4 +1,5 @@
 @import "../mixins/mixins";
+@import "../mixins/config";
 .banner_wrap {
   width: 100%;
   position: relative;
@@ -45,4 +46,22 @@
           height: 250px;
         }
     }
+}
+
+@include media-sm {
+  .banner_wrap{
+    top: 130px !important;
+
+
+    .slick-next {
+
+      display: none !important;
+
+    }
+    .slick-prev {
+
+      display: none !important;
+
+    }
+  }
 }

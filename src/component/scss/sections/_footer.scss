@@ -1,3 +1,4 @@
+@import "../mixins/config";
 footer {
   background-color: rgb(42, 42, 42);
   width: 100%;
@@ -85,4 +86,14 @@ footer {
         margin-bottom: 0;
     }
   }
+}
+@include media-sm {
+    footer{
+       .footer_d{
+        .innerPanel{
+          display: none !important;
+        }
+       }
+     
+    }
 }
